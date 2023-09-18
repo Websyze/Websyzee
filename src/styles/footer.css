@@ -1,0 +1,28 @@
+:root{
+    --fonts-principal: 'IBM Plex Sans', sans-serif;
+    --color-background: #f2f2f2;
+    --color-black: #0D0D0D;
+    --color-white: #FFFF;
+    --color-fontBlack: #0000;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-black);
+    position: relative;
+    padding: 10px 20px;
+    margin-top: 199px;
+}
+
+.textFooter{
+    font-family: var(--fonts-principal);
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+i{
+    color: var(--color-white);
+    font-size: 50px;
+}

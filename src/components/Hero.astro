@@ -1,9 +1,11 @@
 ---
 import "../styles/general.css";
+import "../styles/Hero.css";
+import Footer from "./footer.astro";
 ---
 
 <section class="containerHero">
-  <header class="header">
+  <header>
     <div class="logo">
       <img src="/public/logo-negro.png" alt="logotipo" />
     </div>
@@ -12,23 +14,23 @@ import "../styles/general.css";
         <li class="navegacion"><a href="#">Inicio</a></li>
         <li class="navegacion"><a href="#">Servicios</a></li>
         <li class="navegacion"><a href="#">Contáctanos</a></li>
-        <li class="navegacion">Inicio<a href="#">Blog</a></li>
-        <li class="navegacion">Inicio<a href="#">Soporte técnico</a></li>
+        <li class="navegacion"><a href="#">Blog</a></li>
+        <li class="navegacion"><a href="#">Soporte técnico</a></li>
       </ul>
     </nav>
     <div class="register">
       <div class="registrarse">
         <a href="#">Registrarse</a>
       </div>
-      <div>
+      <div class="sesion">
         <a href="#">Iniciar sesión</a>
       </div>
     </div>
   </header>
-  <main class="contenido">
+  <main>
     <div class="containerContenido">
       <div class="tittle">
-        <h4>Creemos en tu proyecto</h4>
+        <h3>Creemos en tu proyecto</h3>
         <h1>Websyze</h1>
       </div>
       <div class="linea"></div>
@@ -52,18 +54,5 @@ import "../styles/general.css";
         </div>
     </div>
   </main>
-  <footer class="footer">
-    <div class="textFooter">
-        <h2>Optimiza tu sitio web</h2>
-    </div>
-    <div class="textFooter">
-        <h2>Mejores animaciones</h2>
-    </div>
-    <div class="textFooter">
-       <h2>30 días en desarrollo</h2>
-    </div>
-    <div class="textFooter">
-        <h2>Mejores diseños gráficos</h2>
-    </div>
-  </footer>
+  <Footer/>
 </section>
