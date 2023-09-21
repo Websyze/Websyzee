@@ -15,7 +15,7 @@
     font-family: var(--fonts-principal);
   }
 
-body{
+main{
     background-color: var(--color-background);
 }
 

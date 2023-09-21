@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonts-principal: 'IBM Plex Sans', sans-serif;
+    --color-background: #f2f2f2;
+    --color-black: #0D0D0D;
+    --color-white: #FFFF;
+    --color-fontBlack: #0000;
+    --color-gris: #BFBFBF;
+    --color-gris-oscuro: #737373;
+    --color-negro-claro: #292929;
+}
+
+
+.section-servicios{
+    max-width: 1800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.section-servicios h2{
+    font-size: 6rem;
+    display: inline;
+}
+
+.container-servicios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-box-servicios{
+    display: flex;
+    gap: 1rem;
+    background-color: var(--color-background);
+    padding: 20px 40px;
+    width: 1226px;
+}
+
+
+.box-servicios{
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+.img-servicos img{ 
+    width: 175px;
+
+}
+
+.img-servicos i{
+    font-size: 175px;
+    color: #0D0D0D;
+}
+
+.container-img-servicios{
+    background-image: url("/public/girlportatil.jpg");
+    height: 912px;
+    width: 459px;
+    border-radius: 62px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
