@@ -10,19 +10,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
     background-color: var(--color-black);
-    position: relative;
-    padding: 10px 20px;
-    margin-top: 199px;
+    margin-top: 143px;
 }
-
-.textFooter{
-    font-family: var(--fonts-principal);
-    color: var(--color-white);
-    font-weight: 700;
+.conten-footer{
+    color: #FFFF;
 }
 
 i{
-    color: var(--color-white);
-    font-size: 50px;
+    font-size: 40px;
+    color: #FFFF;
 }
