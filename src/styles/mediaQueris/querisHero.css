@@ -47,6 +47,9 @@
 
 /* md */
 @media screen and (max-width: 920px) {
+  .logo{
+    width: 50px;
+  }
   header {
     justify-content: center;
     flex-direction: column;
@@ -69,6 +72,10 @@
 
 /* sm */
 @media screen and (max-width: 743px) {
+  header .logo{
+    width: 45px;
+  }
+  
   .websyze h1 {
     font-size: 13vh;
   }
@@ -86,6 +93,10 @@
 
 /* xs */
 @media screen and (max-width: 620px) {
+  header .logo{
+    width: 40px;
+  }
+  
   .websyze h1 {
     font-size: 10vh;
   }
@@ -98,7 +109,11 @@
 }
 
 @media screen and (max-width: 577px){
-    .abrir, .cerrar{
+  header .logo{
+    width: 36px;
+  }
+  
+  .abrir, .cerrar{
         background: transparent;
         border: none;
         cursor: pointer;
@@ -147,6 +162,9 @@
 }
 
 @media screen and (max-width: 457px){
+  header .logo{
+    width: 32px;
+  }
   .websyze h1{
     font-size: 8vh;
   }
