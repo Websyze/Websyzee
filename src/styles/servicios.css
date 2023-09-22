@@ -21,11 +21,14 @@
     max-width: 1800px;
     margin: auto;
     margin-top: 100px;
+    position: relative;
 }
 
 .section-servicios h2{
     font-size: 6rem;
     display: inline;
+    position: absolute;
+    top: 10%;
 }
 
 .container-servicios{
@@ -38,8 +41,9 @@
     display: flex;
     gap: 1rem;
     background-color: var(--color-background);
-    padding: 20px 40px;
+    padding: 40px;
     width: 1226px;
+    border-radius: 30px;
 }
 
 

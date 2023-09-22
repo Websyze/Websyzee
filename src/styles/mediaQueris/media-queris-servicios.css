@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root{
+    --fonts-principal: 'IBM Plex Sans', sans-serif;
+    --color-background: #f2f2f2;
+    --color-black: #0D0D0D;
+    --color-white: #FFFF;
+    --color-fontBlack: #0000;
+    --color-gris: #BFBFBF;
+    --color-gris-oscuro: #737373;
+    --color-negro-claro: #292929;
+}
+
+  /* 2xl */
+  @media screen and (max-width: 1700px) {
+    .section-servicios{
+        padding: 0px 0px 40px;
+    }
+    .section-servicios h2{
+        top: 2%;
+        left: 2%;
+    }
+    
+    .container-box-servicios{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin: 0px 20px;
+    }
+  }
+  
+  /*2xl*/
+  
+  @media screen and (max-width: 1575px) {
+    .img-servicos img{
+        width: 150px;
+    }
+    .img-servicos i{
+        font-size: 150px;
+    }
+  }
+  
+  /* lg */
+  @media screen and (max-width: 1220px) {
+    .img-servicos img{
+        width: 130px;
+    }
+    .img-servicos i{
+        font-size: 130;
+    }
+    .section-servicios h2{
+        font-size: 4rem;
+    }
+    .container-box-servicios{
+        margin-top: 120px;
+    }
+    .container-img-servicios{
+        display: none;
+    }
+  }
+  
+  /* sm */
+  @media screen and (max-width: 743px) {
+    .img-servicos img{
+        width: 100px;
+    }
+    .img-servicos i{
+        font-size: 100px;
+    }
+  }
+  
+  /* xs */
+  @media screen and (max-width: 620px) {
+    
+    .container-box-servicios{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-servicios h2{
+        font-size: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 577px){
+    .section-servicios h2{
+        font-size: 2.8rem;
+        top: 1%;
+        left: 4%;
+    }
+  }
+  
+  @media screen and (max-width: 457px){
+    .img-servicos img{
+        width: 90px;
+    }
+    .img-servicos i{
+        font-size: 90px;
+    }
+    
+    .section-servicios{
+        padding: 0px;
+    }
+    .container-box-servicios{
+        margin: 0;
+        margin-top: 120px;
+    }
+    .section-servicios h2{
+        font-size: 2.5rem;
+        top: 0;
+        left: 7%;
+    }
+    .text-servicios p{
+        font-size: 10px;
+    }
+  }
